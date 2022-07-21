@@ -1,7 +1,7 @@
-.bg-image {
+.portfolio {
   height: 650 px;
   color: #fff;
-  background-image: url("../assets/img/bg.jpg");
+  background-color: rgb(20, 20, 20);
   background-size: 100%;
   background-size: cover;
 }

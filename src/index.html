@@ -6,8 +6,35 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+
 </head>
 <body>
+  <nav class="navbar fixed-top navbar-expand-lg bg-dark" id="mainNav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Grace N.</a>
+      <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarDefault"
+          aria-controls="navbarDefault"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      <div class="collapse navbar-collapse justify-content-end" id="defaultNav">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          <a class="nav-link" href="#skills" routerLink="/about">Skills</a>
+          <a class="nav-link" href="#projects" routerLink="/projects">Projects</a>
+          <a class="nav-link" href="#contact" routerLink="/contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
   <app-root></app-root>
 </body>
 </html>

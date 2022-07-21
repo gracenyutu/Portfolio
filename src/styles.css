@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+img {
+  height: 600px;
+  width: 400px;
+}
+
+h3 {
+  margin: 20px;
+  color: gold;
+}
+h2 {
+  color: gold;
+}
+.navbar-brand {
+  color: gold;
+}
+.nav-link {
+  color: gold;
+}
+.absolute {
+  top: 150px;
+  position: relative;
+}
